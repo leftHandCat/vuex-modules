@@ -3,8 +3,8 @@ API:
  1. state: 存储状态和数据的**变量**
  2. gatter: **依赖** state 的数据做处理后的返回**变量**，不直接修改 state
  3. mutation: **事件**，唯一可以修改 state 的地方，同步
- 4. action: 事件,类似 mutation, 不能直接修改 state 可异步， commit 提交 mutation 再修改 state, 也可单独使用。dispatch 提交 action
- 5. modules: 分多个子模块，集中到一个大对象中, 例如：
+ 4. action:**事件**,类似 mutation, 不能直接修改 state 可异步， commit 提交 mutation 再修改 state, 也可单独使用。dispatch 提交 action
+ 5. modules: 分多个**子模块**，集中到一个大对象中, 例如：
 ```
 export default new Vuex.Store({
 	state,
