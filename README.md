@@ -18,7 +18,7 @@ export default new Vuex.Store({
 })
 ```
 
-###一、在 vue 中如何使用 state, gatter, mutation, action, modules
+一、在 vue 中如何使用 state, gatter, mutation, action, modules
 
 这里只介绍 mapState,mapGetters,mapMutations,mapAction: 可以 对象 或 数组(与组件中使用名称相同) 的格式
 
